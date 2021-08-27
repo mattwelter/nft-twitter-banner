@@ -4,11 +4,12 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const elem = document.getElementById('root');
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <App bgStr={elem.getAttribute('data-bg-imgs')} />
   </React.StrictMode>,
-  document.getElementById('root')
+  elem
 );
 
 // If you want to start measuring performance in your app, pass a function

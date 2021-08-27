@@ -1,0 +1,84 @@
+form {
+  /* padding: '0.5rem 1rem', backgroundColor: 'inherit', color: 'inherit' */
+  padding: 0.5rem 1rem;
+  background-color: inherit;
+  color: inherit;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+  -webkit-appearance:none;
+}
+
+input[type=submit], .btn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+input[type=submit]:disabled {
+  opacity: 0.5;
+}
+
+.row {
+  margin-bottom: 0.75rem;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+input[type=checkbox] {
+  position: relative;
+  background: white;
+  width: 120px;
+  height: 40px;
+  -webkit-appearance: initial;
+  border-radius: 3px;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  outline: none;
+  cursor: pointer;
+  border: 1px solid #ddd;
+}
+
+input[type=checkbox]:after {
+  position: absolute;
+  top: 5%;
+  display: block;
+  line-height: 32px;
+  width: 45%;
+  height: 90%;
+  background: #fff;
+  box-sizing: border-box;
+  text-align: center;
+  transition: all 0.3s ease-in 0s;
+  color: black;
+  border: #888 1px solid;
+  border-radius: 3px;
+}
+
+input[type=checkbox]:after {
+  left: 2%;
+  content: "Off";
+}
+
+input[type=checkbox]:checked:after {
+  left: 53%;
+  content: "On";
+}
