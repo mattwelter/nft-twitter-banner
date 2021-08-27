@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/nft-twitter-banner/static/css/main.3bb62a06.chunk.css",
+    "main.js": "/nft-twitter-banner/static/js/main.abfae5fb.chunk.js",
+    "main.js.map": "/nft-twitter-banner/static/js/main.abfae5fb.chunk.js.map",
+    "runtime-main.js": "/nft-twitter-banner/static/js/runtime-main.4b8ca01a.js",
+    "runtime-main.js.map": "/nft-twitter-banner/static/js/runtime-main.4b8ca01a.js.map",
+    "static/js/2.f3371544.chunk.js": "/nft-twitter-banner/static/js/2.f3371544.chunk.js",
+    "static/js/2.f3371544.chunk.js.map": "/nft-twitter-banner/static/js/2.f3371544.chunk.js.map",
+    "static/js/3.cc6e8271.chunk.js": "/nft-twitter-banner/static/js/3.cc6e8271.chunk.js",
+    "static/js/3.cc6e8271.chunk.js.map": "/nft-twitter-banner/static/js/3.cc6e8271.chunk.js.map",
+    "index.html": "/nft-twitter-banner/index.html",
+    "static/css/main.3bb62a06.chunk.css.map": "/nft-twitter-banner/static/css/main.3bb62a06.chunk.css.map",
+    "static/js/2.f3371544.chunk.js.LICENSE.txt": "/nft-twitter-banner/static/js/2.f3371544.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4b8ca01a.js",
+    "static/js/2.f3371544.chunk.js",
+    "static/css/main.3bb62a06.chunk.css",
+    "static/js/main.abfae5fb.chunk.js"
+  ]
+}
